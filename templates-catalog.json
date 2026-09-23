@@ -1,0 +1,618 @@
+{
+  "supportedLinks": [
+    "instagram",
+    "whatsapp",
+    "email",
+    "pix",
+    "wifi",
+    "tiktok",
+    "youtube",
+    "website",
+    "spotify",
+    "threads",
+    "facebook",
+    "x",
+    "soundcloud",
+    "snapchat",
+    "pinterest",
+    "patreon",
+    "twitch",
+    "apple-music"
+  ],
+  "templates": [
+    {
+      "id": "editorial",
+      "file": "template-01-editorial.html",
+      "name": "Editorial",
+      "style": "light",
+      "tags": [
+        "layout-assimetrico",
+        "profissional",
+        "consultoria"
+      ],
+      "bestFor": [
+        "consultores",
+        "profissionais liberais",
+        "prestadores de serviço"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "bento",
+      "file": "template-02-bento.html",
+      "name": "Bento Grid",
+      "style": "light",
+      "tags": [
+        "modular",
+        "social",
+        "criadores",
+        "pequenos-negocios"
+      ],
+      "bestFor": [
+        "criadores de conteúdo",
+        "pequenas empresas",
+        "profissionais com muitos canais"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "studio",
+      "file": "template-03-studio.html",
+      "name": "Studio",
+      "style": "light",
+      "tags": [
+        "pessoal",
+        "portfolio",
+        "autonomos",
+        "servicos"
+      ],
+      "bestFor": [
+        "autônomos",
+        "freelancers",
+        "profissionais de serviços",
+        "portfolios"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "executive",
+      "file": "template-04-executive.html",
+      "name": "Executive",
+      "style": "dark",
+      "tags": [
+        "corporativo",
+        "executivo",
+        "tecnologia",
+        "consultoria"
+      ],
+      "bestFor": [
+        "executivos",
+        "empresas",
+        "profissionais de tecnologia",
+        "consultores"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "neon",
+      "file": "template-05-neon.html",
+      "name": "Neon",
+      "style": "dark",
+      "tags": [
+        "criativo",
+        "noturno",
+        "musica",
+        "tecnologia"
+      ],
+      "bestFor": [
+        "artistas",
+        "gamers",
+        "músicos",
+        "criadores digitais"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "paper",
+      "file": "template-06-paper.html",
+      "name": "Paper",
+      "style": "light",
+      "tags": [
+        "editorial",
+        "classico",
+        "autoral",
+        "elegante"
+      ],
+      "bestFor": [
+        "escritores",
+        "fotógrafos",
+        "arquitetos",
+        "profissionais autorais"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "creator",
+      "file": "template-07-creator.html",
+      "name": "Creator",
+      "style": "dark",
+      "tags": [
+        "social",
+        "conteudo",
+        "influencer",
+        "video"
+      ],
+      "bestFor": [
+        "influenciadores",
+        "streamers",
+        "youtubers",
+        "criadores de conteúdo"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "minimal",
+      "file": "template-08-minimal.html",
+      "name": "Minimal",
+      "style": "light",
+      "tags": [
+        "minimalista",
+        "limpo",
+        "direto",
+        "profissional"
+      ],
+      "bestFor": [
+        "consultores",
+        "advogados",
+        "médicos",
+        "profissionais que preferem simplicidade"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "corporate",
+      "file": "template-09-corporate.html",
+      "name": "Corporate",
+      "style": "light",
+      "tags": [
+        "corporativo",
+        "executivo",
+        "empresa",
+        "business"
+      ],
+      "bestFor": [
+        "empresas",
+        "vendas",
+        "representantes comerciais",
+        "executivos"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "sunset",
+      "file": "template-10-sunset.html",
+      "name": "Sunset",
+      "style": "light",
+      "tags": [
+        "pessoal",
+        "acolhedor",
+        "criativo",
+        "bem-estar"
+      ],
+      "bestFor": [
+        "terapeutas",
+        "nutricionistas",
+        "coaches",
+        "profissionais de bem-estar"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "aurora",
+      "file": "template-11-aurora.html",
+      "name": "Aurora",
+      "style": "light",
+      "tags": [
+        "suave",
+        "moderno",
+        "bem-estar"
+      ],
+      "bestFor": [
+        "profissionais de bem-estar",
+        "consultores",
+        "autônomos"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "mono",
+      "file": "template-12-mono.html",
+      "name": "Mono",
+      "style": "light",
+      "tags": [
+        "monocromático",
+        "direto",
+        "minimalista"
+      ],
+      "bestFor": [
+        "arquitetos",
+        "advogados",
+        "consultores"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "luxe",
+      "file": "template-13-luxe.html",
+      "name": "Luxe",
+      "style": "dark",
+      "tags": [
+        "premium",
+        "luxo",
+        "elegante"
+      ],
+      "bestFor": [
+        "executivos",
+        "marcas premium",
+        "consultores"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "mosaic",
+      "file": "template-14-mosaic.html",
+      "name": "Mosaic",
+      "style": "light",
+      "tags": [
+        "modular",
+        "cards",
+        "moderno"
+      ],
+      "bestFor": [
+        "startups",
+        "agências",
+        "profissionais digitais"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "glass",
+      "file": "template-15-glass.html",
+      "name": "Glass",
+      "style": "dark",
+      "tags": [
+        "glassmorphism",
+        "tecnologia",
+        "futurista"
+      ],
+      "bestFor": [
+        "designers",
+        "startups",
+        "profissionais de tecnologia"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "botanical",
+      "file": "template-16-botanical.html",
+      "name": "Botanical",
+      "style": "light",
+      "tags": [
+        "natural",
+        "acolhedor",
+        "saúde"
+      ],
+      "bestFor": [
+        "terapeutas",
+        "nutricionistas",
+        "profissionais de saúde"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "blueprint",
+      "file": "template-17-blueprint.html",
+      "name": "Blueprint",
+      "style": "light",
+      "tags": [
+        "técnico",
+        "engenharia",
+        "estrutura"
+      ],
+      "bestFor": [
+        "engenheiros",
+        "arquitetos",
+        "consultores técnicos"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "editorial-dark",
+      "file": "template-18-editorial-dark.html",
+      "name": "Editorial Dark",
+      "style": "dark",
+      "tags": [
+        "editorial",
+        "impacto",
+        "criativo"
+      ],
+      "bestFor": [
+        "diretores criativos",
+        "fotógrafos",
+        "artistas"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "cobalt",
+      "file": "template-19-cobalt.html",
+      "name": "Cobalt",
+      "style": "light",
+      "tags": [
+        "business",
+        "azul",
+        "confiável"
+      ],
+      "bestFor": [
+        "vendas",
+        "representantes comerciais",
+        "empresas"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "clay",
+      "file": "template-20-clay.html",
+      "name": "Clay",
+      "style": "light",
+      "tags": [
+        "expressivo",
+        "acolhedor",
+        "colorido"
+      ],
+      "bestFor": [
+        "criadores",
+        "coaches",
+        "profissionais de serviços"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "social",
+      "file": "template-21-social.html",
+      "name": "Social Focus",
+      "style": "light",
+      "tags": [
+        "redes-sociais",
+        "alcance",
+        "criadores"
+      ],
+      "bestFor": [
+        "influenciadores",
+        "criadores de conteúdo"
+      ],
+      "featuredLinks": [
+        "instagram",
+        "tiktok",
+        "youtube",
+        "threads",
+        "facebook"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "essentials",
+      "file": "template-22-essentials.html",
+      "name": "Essentials",
+      "style": "light",
+      "tags": [
+        "negocios",
+        "contato",
+        "conversao"
+      ],
+      "bestFor": [
+        "prestadores de serviço",
+        "pequenas empresas"
+      ],
+      "featuredLinks": [
+        "whatsapp",
+        "email",
+        "website",
+        "pix",
+        "wifi"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "music",
+      "file": "template-23-music.html",
+      "name": "Music",
+      "style": "dark",
+      "tags": [
+        "musica",
+        "live",
+        "audio"
+      ],
+      "bestFor": [
+        "músicos",
+        "artistas",
+        "streamers"
+      ],
+      "featuredLinks": [
+        "spotify",
+        "youtube",
+        "soundcloud",
+        "apple-music",
+        "twitch"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "community",
+      "file": "template-24-community.html",
+      "name": "Community",
+      "style": "light",
+      "tags": [
+        "comunidade",
+        "social",
+        "alcance"
+      ],
+      "bestFor": [
+        "criadores",
+        "comunidades",
+        "marcas pessoais"
+      ],
+      "featuredLinks": [
+        "x",
+        "facebook",
+        "threads",
+        "snapchat",
+        "pinterest"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "monetize",
+      "file": "template-25-monetize.html",
+      "name": "Monetize",
+      "style": "light",
+      "tags": [
+        "monetizacao",
+        "vendas",
+        "apoio"
+      ],
+      "bestFor": [
+        "criadores",
+        "consultores",
+        "projetos independentes"
+      ],
+      "featuredLinks": [
+        "pix",
+        "patreon",
+        "twitch",
+        "website",
+        "whatsapp"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "video",
+      "file": "template-26-video.html",
+      "name": "Video",
+      "style": "light",
+      "tags": [
+        "video",
+        "conteudo",
+        "criativo"
+      ],
+      "bestFor": [
+        "youtubers",
+        "tiktokers",
+        "criadores de vídeo"
+      ],
+      "featuredLinks": [
+        "youtube",
+        "tiktok",
+        "instagram",
+        "twitch",
+        "soundcloud"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "professional",
+      "file": "template-27-professional.html",
+      "name": "Professional",
+      "style": "light",
+      "tags": [
+        "profissional",
+        "business",
+        "confianca"
+      ],
+      "bestFor": [
+        "consultores",
+        "vendedores",
+        "executivos"
+      ],
+      "featuredLinks": [
+        "website",
+        "email",
+        "whatsapp",
+        "instagram",
+        "x"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "discovery",
+      "file": "template-28-discovery.html",
+      "name": "Discovery",
+      "style": "light",
+      "tags": [
+        "entretenimento",
+        "descoberta",
+        "lifestyle"
+      ],
+      "bestFor": [
+        "artistas",
+        "curadores",
+        "criadores de lifestyle"
+      ],
+      "featuredLinks": [
+        "spotify",
+        "apple-music",
+        "pinterest",
+        "snapchat",
+        "threads"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "local",
+      "file": "template-29-local.html",
+      "name": "Local",
+      "style": "light",
+      "tags": [
+        "local",
+        "servicos",
+        "atendimento"
+      ],
+      "bestFor": [
+        "negócios locais",
+        "profissionais autônomos",
+        "serviços presenciais"
+      ],
+      "featuredLinks": [
+        "wifi",
+        "whatsapp",
+        "pix",
+        "website",
+        "email"
+      ],
+      "supportedLinks": "all"
+    },
+    {
+      "id": "balanced",
+      "file": "template-30-balanced.html",
+      "name": "Balanced",
+      "style": "light",
+      "tags": [
+        "equilibrado",
+        "principal",
+        "versatil"
+      ],
+      "bestFor": [
+        "qualquer perfil profissional",
+        "cartão pessoal"
+      ],
+      "featuredLinks": [
+        "whatsapp",
+        "instagram",
+        "email",
+        "website",
+        "youtube"
+      ],
+      "supportedLinks": "all"
+    }
+  ]
+}
